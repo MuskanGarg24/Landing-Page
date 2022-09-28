@@ -26,7 +26,7 @@ const Header = () => {
     <>
       <nav className={`navbar ${show && `fixed-top`} navbar-expand-lg navbar-light p-md-3`}>
         <div className="container">
-          <a href="#" className="navbar-brand text-white navbarBrand">
+          <a className="navbar-brand text-white navbarBrand">
             Tutor Master <br></br>{" "}
             <span className="brandSubHeading">Knowledge Transfer</span>
           </a>
@@ -45,17 +45,17 @@ const Header = () => {
             <div className="mx-auto"></div>
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a href="#" className="nav-link text-white">
+                <a className="nav-link text-white">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link text-white">
+                <a className="nav-link text-white">
                   Trainings
                 </a>
               </li>
               <li className="nav-item">
-                <a href="#" className="nav-link text-white">
+                <a className="nav-link text-white">
                   About
                 </a>
               </li>

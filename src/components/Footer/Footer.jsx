@@ -14,13 +14,13 @@ const Footer = () => {
               Lorem ipsum Lorem ipsum dolor sit amet
             </p>
             <div className="share">
-              <a href="#" className="social-links">
+              <a className="social-links">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="social-links">
+              <a className="social-links">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="social-links">
+              <a className="social-links">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
             </div>
@@ -30,16 +30,16 @@ const Footer = () => {
         <div className="col-lg-2 col-md-6 col-sm-12 footer-column">
           <h4>Quick Links</h4>
           <div className="links">
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               Home
             </a>
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               About
             </a>
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               Trainings
             </a>
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               Contact
             </a>
           </div>
@@ -48,13 +48,13 @@ const Footer = () => {
         <div className="col-lg-2 col-md-6 col-sm-12 footer-column">
           <h4>Topics</h4>
           <div className="links">
-            <a href="#home" className="footer-link">
+            <a className="footer-link">
               Blanket Topics
             </a>
-            <a href="#category" className="footer-link">
+            <a className="footer-link">
               Country Topics
             </a>
-            <a href="#product" className="footer-link">
+            <a className="footer-link">
               Product Topics
             </a>
           </div>
@@ -63,16 +63,16 @@ const Footer = () => {
         <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
           <h4>Important Links</h4>
           <div className="links">
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               Privacy Policy
             </a>
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               Terms & Conditions
             </a>
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               Disclaimer
             </a>
-            <a href="#" className="footer-link">
+            <a className="footer-link">
               Sitemap
             </a>
           </div>
