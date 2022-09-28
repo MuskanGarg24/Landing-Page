@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 
 const Header = () => {
+
+  const [show, setShow] = useState(true)
+
+  const controlNavbar = ()=>{
+    if(window.pageYOffset>100){
+      setShow(false);
+    }
+    else{
+      setShow(true);
+    }
+  }
+
+  useEffect(()=>{
+    window.addEventListener('scroll', controlNavbar)
+    return()=>{
+      window.removeEventListener('scroll', controlNavbar)
+    }
+  },[]);
+
+
   return (
     <>
-      <nav className="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
+      <nav className={`navbar ${show && `fixed-top`} navbar-expand-lg navbar-light p-md-3`}>
         <div className="container">
           <a href="#" className="navbar-brand text-white navbarBrand">
             Tutor Master <br></br>{" "}
