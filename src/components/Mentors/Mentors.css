@@ -43,3 +43,19 @@
     margin-top: 2rem;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .mentors-section{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .mentors-section{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
