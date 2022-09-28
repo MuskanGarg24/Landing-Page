@@ -14,13 +14,13 @@ const Footer = () => {
               Lorem ipsum Lorem ipsum dolor sit amet
             </p>
             <div className="share">
-              <a className="social-links">
+              <a href="https://www.facebook.com/" className="social-links">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a className="social-links">
+              <a href="https://twitter.com/" className="social-links">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a className="social-links">
+              <a href="https://www.linkedin.com/" className="social-links">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
             </div>
@@ -30,16 +30,16 @@ const Footer = () => {
         <div className="col-lg-2 col-md-6 col-sm-12 footer-column">
           <h4>Quick Links</h4>
           <div className="links">
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Home
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               About
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Trainings
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Contact
             </a>
           </div>
@@ -48,13 +48,13 @@ const Footer = () => {
         <div className="col-lg-2 col-md-6 col-sm-12 footer-column">
           <h4>Topics</h4>
           <div className="links">
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Blanket Topics
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Country Topics
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Product Topics
             </a>
           </div>
@@ -63,16 +63,16 @@ const Footer = () => {
         <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
           <h4>Important Links</h4>
           <div className="links">
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Privacy Policy
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Terms & Conditions
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Disclaimer
             </a>
-            <a className="footer-link">
+            <a href="https://www.google.com/" className="footer-link">
               Sitemap
             </a>
           </div>
