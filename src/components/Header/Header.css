@@ -37,9 +37,18 @@
     font-size: 25px;
 }
 
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1024px){
     .content{
-        padding: 1rem;
+        margin-top: 6rem;
+        width: 90%;
+    }
+    .mainHead{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .subHead{
+        font-size: 1.5rem;
     }
     .button{
         width: 10%;
@@ -50,10 +59,18 @@
 }
 
 
+
 @media screen and (max-width: 600px) {
     .content{
-        padding: 2rem;
-        margin-top: 3rem;
+        margin-top: 11rem;
+        width: 90%;
+    }
+    .mainHead{
+        font-size: 1.5rem;
+        line-height: 30px;
+    }
+    .subHead{
+        font-size: 1rem;
     }
     .button{
         width: 15%;
@@ -65,7 +82,15 @@
 
 @media screen and (max-width: 400px) {
     .content{
-        padding: 3rem;
+        margin-top: 11rem;
+        width: 90%;
+    }
+    .mainHead{
+        line-height: 30px;
+        font-size: 1.5rem;
+    }
+    .subHead{
+        font-size: 1rem;
     }
     .button{
         width: 20%;
